@@ -28,8 +28,8 @@
 				    <cloudHubDeployment>
 				      <uri>https://anypoint.mulesoft.com</uri>
 				      <muleVersion>${app.runtime}</muleVersion>
-				      <username>${PLATFORM_USERNAME}</username>
-				      <password>${PLATFORM_PASSWORD}</password>
+				      <username>giridigi5</username>
+				      <password>Giri@1978</password>
 				      <applicationName>cicd-demo-app</applicationName>
 				      <environment>Sandbox</environment>
 				      <region>us-east-2</region>
@@ -59,9 +59,9 @@
 
 	<repositories>
 		<repository>
-			<id>anypoint-exchange-v3</id>
+			<id>anypoint-exchange-v2</id>
 			<name>Anypoint Exchange</name>
-			<url>https://maven.anypoint.mulesoft.com/api/v2/maven</url>
+			<url>https://maven.anypoint.mulesoft.com/api/v2/organizations/f2aaed63-83f1-4e67-ab4a-9720f8941a75/maven</url>
 			<layout>default</layout>
 		</repository>
 		<repository>
