@@ -16,10 +16,13 @@ http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/
 output application/json
 ---
 {
-	User: "Giribabu Sayineni",
-	Message: "Hello CICD Process"
+	user: "Giribabu Sayineni",
+	message: "Hello CICD Process",
+	comment: "Jenkins CICD Pracitce",
+	version: "v1.0"
 }]]></ee:set-payload>
 			</ee:message>
 		</ee:transform>
+		<logger level="INFO" doc:name="Logger" doc:id="1efe70ba-9b37-49a5-ba11-915c1329df1e" message="#[payload]"/>
 	</flow>
 </mule>
